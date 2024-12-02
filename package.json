@@ -1,0 +1,31 @@
+{
+  "name": "quasar-infinite-scroll-poc",
+  "version": "0.0.1",
+  "description": "Quasar Infinite Scroll POC",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.ts,.vue ./"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.9",
+    "date-fns": "^2.30.0",
+    "nanoid": "^4.0.2",
+    "pinia": "^2.1.7",
+    "quasar": "^2.14.6",
+    "vue": "^3.4.18"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.7.3",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.21.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}
